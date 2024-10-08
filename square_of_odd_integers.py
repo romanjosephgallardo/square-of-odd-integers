@@ -11,6 +11,10 @@ sample calls
 # pseudocode
 
 # make a list
+list = [4, 5, 14, 14]
+
 # iterate through the list
-# check if the element is odd
+squared_list = [element **2 for element in list if element % 2 == 1]
+
 # print the square of the odd element
+print(squared_list)
